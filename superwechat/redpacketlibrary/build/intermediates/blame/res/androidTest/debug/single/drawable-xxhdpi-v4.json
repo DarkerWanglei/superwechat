@@ -188,12 +188,12 @@
         "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_add_card_icon.png"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_red_packet_records.png",
-        "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_red_packet_records.png"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_small_random_bg.png",
         "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_small_random_bg.png"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_red_packet_records.png",
+        "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_red_packet_records.png"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_small_random_switch.png",
