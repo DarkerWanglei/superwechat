@@ -136,6 +136,7 @@
     <color name="list_itease_secondary_color">#888888</color>
     <color name="list_item_primary_color">#000</color>
     <color name="list_item_secondary_color">#888888</color>
+    <color name="login_bg">#459F3F</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -160,6 +161,7 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="rect">#aae84e40</color>
     <color name="red">#FC2828</color>
+    <color name="register_bg">#C7C7C7</color>
     <color name="result_view">#b0000000</color>
     <color name="ripple_material_dark">#42ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
@@ -336,7 +338,6 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="btn_fab_size">56dp</dimen>
     <dimen name="call_button_padding_left">25dp</dimen>
     <dimen name="call_button_padding_right">25dp</dimen>
     <dimen name="call_button_padding_vertical">10dp</dimen>
@@ -537,6 +538,7 @@
     <string name="Move_into_blacklist_success">Move into blacklist success</string>
     <string name="Move_into_the_blacklist_new">Move into the blacklist</string>
     <string name="Network_error">Network error</string>
+    <string name="Nickname_cannot_be_empty">Nickname_cannot_br_empty!</string>
     <string name="Not_Set">Not set</string>
     <string name="Open_group_chat">Public groups</string>
     <string name="Open_group_members_invited">Allow members to invite</string>
@@ -921,6 +923,7 @@
     <string name="money_username_format">的红包</string>
     <string name="move_out_backlist">Remove from blacklist</string>
     <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="msg_1">msg_1</string>
     <string name="msg_choose_few_person_red_packet">当前为专属红包</string>
     <string name="msg_error_page_hint">糟糕，好像哪里出了点问题！</string>
     <string name="msg_error_retry">点此重试</string>

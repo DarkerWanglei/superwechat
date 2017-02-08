@@ -448,6 +448,10 @@
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_row_contact_with_checkbox.xml"
     },
     {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\view_layout_title.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\view_layout_title.xml"
+    },
+    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_transfer.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_popup_transfer.xml"
     },
@@ -558,6 +562,10 @@
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\activity_guide.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",

@@ -65,6 +65,7 @@
     <string name="Move_into_blacklist_success">移入黑名单成功</string>
     <string name="Move_into_the_blacklist_new">移入到黑名单</string>
     <string name="Network_error">网络出错</string>
+    <string name="Nick_name_cannot_be_empty">昵称不能为空！</string>
     <string name="Not_Set">未设置</string>
     <string name="Open_group_chat">公开的群聊</string>
     <string name="Open_group_members_invited">开放群成员邀请</string>
