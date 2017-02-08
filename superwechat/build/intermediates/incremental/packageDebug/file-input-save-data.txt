@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Feb 07 19:53:35 CST 2017
+#Tue Feb 07 20:21:17 CST 2017
 1007.base=D\:\\superwechat\\superwechat\\build\\intermediates\\res\\resources-debug.ap_
 835.base=D\:\\superwechat\\superwechat\\build\\intermediates\\res\\resources-debug.ap_
 100.set=ANDROID_RESOURCE
