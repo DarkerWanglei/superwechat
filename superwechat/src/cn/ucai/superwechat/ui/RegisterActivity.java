@@ -188,7 +188,7 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void unRegisterAppServer() {
-        NetDao.unregister(this, username, new OkHttpUtils.OnCompleteListener<String>() {
+        NetDao.unRegister(this, username, new OkHttpUtils.OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
                 Log.e("RegisterActivity", "result=" + result);

@@ -2914,7 +2914,7 @@ containing a value of this type.
         public static final int bmapView=0x7f0e007c;
         public static final int btn_add_card=0x7f0e021c;
         public static final int btn_add_to_group=0x7f0e010e;
-        public static final int btn_address_list=0x7f0e011a;
+        public static final int btn_address_list=0x7f0e011b;
         public static final int btn_answer_call=0x7f0e014d;
         public static final int btn_cancel=0x7f0e0082;
         public static final int btn_captcha_confirm=0x7f0e025b;
@@ -2922,10 +2922,10 @@ containing a value of this type.
         public static final int btn_change_withdraw_confrim=0x7f0e0283;
         public static final int btn_click_received=0x7f0e01fd;
         public static final int btn_complete_ok=0x7f0e023c;
-        public static final int btn_container_address_list=0x7f0e0119;
-        public static final int btn_container_conversation=0x7f0e0117;
-        public static final int btn_container_setting=0x7f0e011c;
-        public static final int btn_conversation=0x7f0e0118;
+        public static final int btn_container_address_list=0x7f0e011a;
+        public static final int btn_container_conversation=0x7f0e0118;
+        public static final int btn_container_setting=0x7f0e011d;
+        public static final int btn_conversation=0x7f0e0119;
         public static final int btn_delete_card=0x7f0e01d9;
         public static final int btn_exclusive_open_money=0x7f0e0296;
         public static final int btn_exit=0x7f0e0184;
@@ -2950,11 +2950,11 @@ containing a value of this type.
         public static final int btn_register=0x7f0e006c;
         public static final int btn_resend_code=0x7f0e02ba;
         public static final int btn_save=0x7f0e006f;
-        public static final int btn_search=0x7f0e0129;
+        public static final int btn_search=0x7f0e012a;
         public static final int btn_send=0x7f0e00c9;
         public static final int btn_set_mode_keyboard=0x7f0e00c1;
         public static final int btn_set_mode_voice=0x7f0e00c0;
-        public static final int btn_setting=0x7f0e011d;
+        public static final int btn_setting=0x7f0e011e;
         public static final int btn_single_put_money=0x7f0e0265;
         public static final int btn_sms_closed=0x7f0e02bb;
         public static final int btn_submit_review=0x7f0e027a;
@@ -2965,11 +2965,11 @@ containing a value of this type.
         public static final int button_avatar=0x7f0e017d;
         public static final int button_uploadlog=0x7f0e00ef;
         public static final int cancel_action=0x7f0e01a5;
-        public static final int cb_member_inviter=0x7f0e0124;
+        public static final int cb_member_inviter=0x7f0e0125;
         public static final int cb_no_disturb_off=0x7f0e0075;
         public static final int cb_no_disturb_on=0x7f0e0071;
         public static final int cb_no_disturb_only_night=0x7f0e0073;
-        public static final int cb_public=0x7f0e0121;
+        public static final int cb_public=0x7f0e0122;
         public static final int change_fragment_container=0x7f0e01b2;
         public static final int change_title_bar=0x7f0e01b1;
         public static final int change_top_ll=0x7f0e021d;
@@ -3029,8 +3029,8 @@ containing a value of this type.
         public static final int ed_real_name=0x7f0e020c;
         public static final int ed_search=0x7f0e01cd;
         public static final int edit_custom_appkey=0x7f0e0169;
-        public static final int edit_group_introduction=0x7f0e0120;
-        public static final int edit_group_name=0x7f0e011f;
+        public static final int edit_group_introduction=0x7f0e0121;
+        public static final int edit_group_name=0x7f0e0120;
         public static final int edit_max_bit_rate=0x7f0e00e2;
         public static final int edit_max_frame_rate=0x7f0e00e4;
         public static final int edit_min_bit_rate=0x7f0e00e0;
@@ -3047,13 +3047,13 @@ containing a value of this type.
         public static final int end_padder=0x7f0e01ad;
         public static final int et_greetings=0x7f0e0250;
         public static final int et_im=0x7f0e007a;
-        public static final int et_input_nickname=0x7f0e0125;
+        public static final int et_input_nickname=0x7f0e0126;
         public static final int et_money_amount=0x7f0e024a;
         public static final int et_money_count=0x7f0e0244;
         public static final int et_pay_pwd=0x7f0e02b8;
         public static final int et_recharge_amount=0x7f0e025e;
         public static final int et_rest=0x7f0e0079;
-        public static final int et_search_id=0x7f0e012a;
+        public static final int et_search_id=0x7f0e012b;
         public static final int et_sendmessage=0x7f0e00c4;
         public static final int et_sms_code=0x7f0e02bd;
         public static final int et_transfer_money=0x7f0e026d;
@@ -3069,7 +3069,7 @@ containing a value of this type.
         public static final int fl_front=0x7f0e0273;
         public static final int floating_header=0x7f0e0078;
         public static final int forward=0x7f0e015b;
-        public static final int fragment_container=0x7f0e011e;
+        public static final int fragment_container=0x7f0e011f;
         public static final int gpv_pay_inputView=0x7f0e0261;
         public static final int gray_strip=0x7f0e0207;
         public static final int greeting_layout=0x7f0e024d;
@@ -3126,7 +3126,7 @@ containing a value of this type.
         public static final int iv_nickname=0x7f0e012d;
         public static final int iv_open_bg=0x7f0e028d;
         public static final int iv_pass_authentication=0x7f0e027c;
-        public static final int iv_password=0x7f0e0113;
+        public static final int iv_password=0x7f0e0114;
         public static final int iv_password2=0x7f0e012f;
         public static final int iv_pay_icon=0x7f0e01de;
         public static final int iv_phone_number=0x7f0e0214;
@@ -3145,7 +3145,7 @@ containing a value of this type.
         public static final int iv_transfer_icon=0x7f0e0269;
         public static final int iv_unread_voice=0x7f0e00b2;
         public static final int iv_userhead=0x7f0e009f;
-        public static final int iv_username=0x7f0e0110;
+        public static final int iv_username=0x7f0e0111;
         public static final int iv_vi_add_behind=0x7f0e0277;
         public static final int iv_vi_add_front=0x7f0e0274;
         public static final int iv_vi_behind_picture=0x7f0e0278;
@@ -3208,7 +3208,7 @@ containing a value of this type.
         public static final int ll_face_container=0x7f0e0086;
         public static final int ll_group=0x7f0e018b;
         public static final int ll_loading=0x7f0e00a8;
-        public static final int ll_open_invite=0x7f0e0122;
+        public static final int ll_open_invite=0x7f0e0123;
         public static final int ll_random_detail=0x7f0e02cb;
         public static final int ll_random_detail_switch=0x7f0e02c8;
         public static final int ll_random_loading=0x7f0e02d6;
@@ -3229,10 +3229,10 @@ containing a value of this type.
         public static final int loading_layout=0x7f0e007e;
         public static final int loading_text=0x7f0e0182;
         public static final int local_surface=0x7f0e0144;
-        public static final int lr_title=0x7f0e012c;
+        public static final int lr_title=0x7f0e010f;
         public static final int mVideoView=0x7f0e0185;
-        public static final int mainLayout=0x7f0e0115;
-        public static final int main_bottom=0x7f0e0116;
+        public static final int mainLayout=0x7f0e0116;
+        public static final int main_bottom=0x7f0e0117;
         public static final int media_actions=0x7f0e01a7;
         public static final int mentioned=0x7f0e009a;
         public static final int message=0x7f0e009b;
@@ -3260,7 +3260,7 @@ containing a value of this type.
         public static final int opposite_surface=0x7f0e0138;
         public static final int pager_view=0x7f0e00ca;
         public static final int parentPanel=0x7f0e0048;
-        public static final int password=0x7f0e0114;
+        public static final int password=0x7f0e0115;
         public static final int pay_type_list=0x7f0e01db;
         public static final int pb_load_local=0x7f0e007d;
         public static final int percentage=0x7f0e00a9;
@@ -3302,13 +3302,13 @@ containing a value of this type.
         public static final int rl_no_disturb=0x7f0e0070;
         public static final int rl_no_disturb_off=0x7f0e0074;
         public static final int rl_no_disturb_only_night=0x7f0e0072;
-        public static final int rl_password=0x7f0e0112;
+        public static final int rl_password=0x7f0e0113;
         public static final int rl_picture=0x7f0e00b6;
         public static final int rl_push_settings=0x7f0e0165;
         public static final int rl_random_closed=0x7f0e02cd;
         public static final int rl_random_detail_closed=0x7f0e02c1;
         public static final int rl_search=0x7f0e0103;
-        public static final int rl_searched_group=0x7f0e012b;
+        public static final int rl_searched_group=0x7f0e012c;
         public static final int rl_switch_adaptive_video_encode=0x7f0e0179;
         public static final int rl_switch_auto_accept_group_invitation=0x7f0e0177;
         public static final int rl_switch_block_groupmsg=0x7f0e00ff;
@@ -3325,8 +3325,8 @@ containing a value of this type.
         public static final int rl_switch_speaker=0x7f0e0166;
         public static final int rl_switch_vibrate=0x7f0e0163;
         public static final int rl_tab_icon=0x7f0e019d;
-        public static final int rl_title_bar=0x7f0e0127;
-        public static final int rl_username=0x7f0e010f;
+        public static final int rl_title_bar=0x7f0e0128;
+        public static final int rl_username=0x7f0e0110;
         public static final int robot_item=0x7f0e015a;
         public static final int root=0x7f0e00d1;
         public static final int root_layout=0x7f0e0137;
@@ -3351,7 +3351,7 @@ containing a value of this type.
         public static final int search_plate=0x7f0e0062;
         public static final int search_src_text=0x7f0e0063;
         public static final int search_voice_btn=0x7f0e0067;
-        public static final int second_desc=0x7f0e0123;
+        public static final int second_desc=0x7f0e0124;
         public static final int seekbar_y_detal=0x7f0e0142;
         public static final int select_dialog_listview=0x7f0e0068;
         public static final int selected_view=0x7f0e001a;
@@ -3463,7 +3463,7 @@ containing a value of this type.
         public static final int tv_common_problem=0x7f0e0229;
         public static final int tv_complete_bank_hint=0x7f0e0230;
         public static final int tv_connect_errormsg=0x7f0e0153;
-        public static final int tv_contact_details=0x7f0e0128;
+        public static final int tv_contact_details=0x7f0e0129;
         public static final int tv_count_unit=0x7f0e0243;
         public static final int tv_dealer_name=0x7f0e02e1;
         public static final int tv_debit_card=0x7f0e01d4;
@@ -3515,7 +3515,7 @@ containing a value of this type.
         public static final int tv_name=0x7f0e0092;
         public static final int tv_network_status=0x7f0e014e;
         public static final int tv_nick=0x7f0e013e;
-        public static final int tv_nickname_description=0x7f0e0126;
+        public static final int tv_nickname_description=0x7f0e0127;
         public static final int tv_no_result=0x7f0e0109;
         public static final int tv_not_receive_msg=0x7f0e0257;
         public static final int tv_open_bank_name=0x7f0e023b;
@@ -3618,7 +3618,7 @@ containing a value of this type.
         public static final int umeng_update_id_ignore=0x7f0e02f5;
         public static final int umeng_update_id_ok=0x7f0e02f3;
         public static final int umeng_update_wifi_indicator=0x7f0e02ef;
-        public static final int unread_address_number=0x7f0e011b;
+        public static final int unread_address_number=0x7f0e011c;
         public static final int unread_count=0x7f0e01a0;
         public static final int unread_msg_number=0x7f0e0096;
         public static final int up=0x7f0e001c;
@@ -3631,7 +3631,7 @@ containing a value of this type.
         public static final int user_nickname=0x7f0e0135;
         public static final int user_state=0x7f0e018a;
         public static final int user_username=0x7f0e0133;
-        public static final int username=0x7f0e0111;
+        public static final int username=0x7f0e0112;
         public static final int vPager=0x7f0e0087;
         public static final int video_data_area=0x7f0e0156;
         public static final int video_icon=0x7f0e0155;
@@ -4811,6 +4811,8 @@ containing a value of this type.
         public static final int GridPasswordView_Divider=0x7f0900c9;
         public static final int GridPasswordView_EditText=0x7f0900ca;
         public static final int GridPasswordView_TextView=0x7f0900cb;
+        /**  模糊 
+         */
         public static final int HeadScale=0x7f0900cc;
         public static final int LoadingProgressStyle=0x7f0900cd;
         public static final int MMFontTitleInList=0x7f0900ce;
@@ -4818,7 +4820,11 @@ containing a value of this type.
         public static final int MMListItem=0x7f0900d0;
         public static final int MyAlertDialog=0x7f0900d1;
         public static final int MyDialogStyle=0x7f0900d2;
+        /**  模糊 
+         */
         public static final int MyDialogStyleBottom=0x7f0900d3;
+        /**  模糊 
+         */
         public static final int MyDialogStyleTop=0x7f0900d4;
         public static final int PayTypeIconStyle=0x7f0900d5;
         public static final int Platform_AppCompat=0x7f090010;

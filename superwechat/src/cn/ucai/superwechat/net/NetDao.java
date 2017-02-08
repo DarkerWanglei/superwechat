@@ -23,10 +23,19 @@ public class NetDao {
                 .execute(listener);
     }
 
-    public static void unregister(Context context, String username, OkHttpUtils.OnCompleteListener<String> listener) {
+    public static void unRegister(Context context, String username, OkHttpUtils.OnCompleteListener<String> listener) {
         OkHttpUtils<String> utils = new OkHttpUtils<>(context);
         utils.setRequestUrl(I.REQUEST_UNREGISTER)
                 .addParam(I.User.USER_NAME, username)
+                .targetClass(String.class)
+                .execute(listener);
+    }
+
+    public static void Login(Context context, String username, String password, OkHttpUtils.OnCompleteListener<String> listener) {
+        OkHttpUtils<String> utils = new OkHttpUtils<>(context);
+        utils.setRequestUrl(I.REQUEST_LOGIN)
+                .addParam(I.User.USER_NAME, username)
+                .addParam(I.User.PASSWORD, MD5.getMessageDigest(password))
                 .targetClass(String.class)
                 .execute(listener);
     }

@@ -140,6 +140,7 @@
     <string name="Move_into_blacklist_success">Move into blacklist success</string>
     <string name="Move_into_the_blacklist_new">Move into the blacklist</string>
     <string name="Network_error">Network error</string>
+    <string name="Nickname_cannot_be_empty">Nickname_cannot_br_empty!</string>
     <string name="Not_Set">Not set</string>
     <string name="Open_group_chat">Public group</string>
     <string name="Open_group_members_invited">Allow members to invite</string>

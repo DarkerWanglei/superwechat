@@ -68,12 +68,12 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_random_dialog.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
-        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_new_friends_msg.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_new_friends_msg.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
@@ -124,10 +124,6 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_withdraw_money.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_expression.xml"
     },
@@ -162,10 +158,6 @@
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_error_page.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_error_page.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice_call.xml",
@@ -248,16 +240,12 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_fragment_contact_list.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_transfer_packet.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_transfer_packet.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_login.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_login.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_transfer_packet.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_transfer_packet.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_search_bar.xml",
@@ -328,36 +316,32 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_record_popup_layout.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
-        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_video_call.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_pick_contact_no_checkbox.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_pick_contact_no_checkbox.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_video_call.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_robots.xml",
-        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_row_robots.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_details.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_group_details.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_layout_chat_primary_menu.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_layout_chat_primary_menu.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_robots.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_row_robots.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_video.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_context_menu_for_video.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_robots.xml",
@@ -366,6 +350,10 @@
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_layout.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_popup_layout.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_title_bar.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video_call.xml",
@@ -384,16 +372,16 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_single_packet_detail.xml"
     },
     {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_message.xml"
+    },
+    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_voice_call.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_voice_call.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_bigexpression.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_message.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_message.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_record.xml",
@@ -424,16 +412,8 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_location.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_location.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
@@ -444,12 +424,16 @@
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_public_groups.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_contact_with_checkbox.xml",
-        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_row_contact_with_checkbox.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_chat_primary_menu.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\view_layout_title.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\view_layout_title.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_contact_with_checkbox.xml",
+        "source": "D:\\superwechat\\superwechat\\res\\layout\\em_row_contact_with_checkbox.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_popup_transfer.xml",
@@ -480,20 +464,8 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_choose_verify_popup_layout.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_sent_file.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
@@ -560,20 +532,16 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_alert_dialog.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\activity_guide.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_alert_dialog.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_action.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
@@ -604,6 +572,10 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_media.xml"
     },
     {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_contacts_header.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_contacts_header.xml"
     },
@@ -612,20 +584,16 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\em_row_received_random_packet.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_splash.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_splash.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_sent_transfer.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\em_row_sent_transfer.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_sent_transfer.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\em_row_sent_transfer.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_set_pay_password.xml",
@@ -664,10 +632,6 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_file.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_chat_history.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_chat_history.xml"
     },
@@ -688,12 +652,12 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_record_list_footer.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_switch_button.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_widget_switch_button.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_widget_contact_item.xml",
@@ -768,12 +732,12 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_fragment_verify_dentity.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_loading.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_loading.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_loading.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_loading.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_fragment_conversation_list.xml",
@@ -824,28 +788,28 @@
         "source": "D:\\superwechat\\superwechat\\res\\layout\\umeng_update_dialog.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet_detail.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet_detail.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_transfer.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_transfer.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_red_packet_detail.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_red_packet_detail.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_search_bar_with_padding.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_search_bar_with_padding.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_voice.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_activity_transfer.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_activity_transfer.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\layout\\ease_row_received_voice.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_fragment_groups.xml",
@@ -878,9 +842,5 @@
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.1\\res\\layout\\notification_template_big_media_custom.xml"
     }
 ]

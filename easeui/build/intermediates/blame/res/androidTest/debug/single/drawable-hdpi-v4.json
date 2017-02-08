@@ -276,12 +276,12 @@
         "source": "D:\\superwechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_seabar_input.9.png"
     },
     {
-        "merged": "D:\\superwechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png",
-        "source": "D:\\superwechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png"
-    },
-    {
         "merged": "D:\\superwechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png",
         "source": "D:\\superwechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chatto_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\superwechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png",
+        "source": "D:\\superwechat\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_input_bar_bg_active.9.png"
     },
     {
         "merged": "D:\\superwechat\\easeui\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ease_settings_normal.png",

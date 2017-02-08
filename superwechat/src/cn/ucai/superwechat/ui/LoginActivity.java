@@ -24,27 +24,48 @@ import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
+import com.hyphenate.easeui.domain.User;
+import com.hyphenate.easeui.utils.EaseCommonUtils;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
+import cn.ucai.superwechat.I;
+import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatApplication;
 import cn.ucai.superwechat.SuperWeChatHelper;
-import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.db.SuperWeChatDBManager;
-
-import com.hyphenate.easeui.utils.EaseCommonUtils;
+import cn.ucai.superwechat.domain.Result;
+import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.MFGT;
+import cn.ucai.superwechat.utils.OkHttpUtils;
+import cn.ucai.superwechat.utils.ResultUtils;
 
 /**
  * Login screen
- *
  */
 public class LoginActivity extends BaseActivity {
     private static final String TAG = "LoginActivity";
     public static final int REQUEST_CODE_SETNICK = 1;
-    private EditText usernameEditText;
-    private EditText passwordEditText;
+    @BindView(R.id.txt_title)
+    TextView txtTitle;
+    @BindView(R.id.username)
+    EditText etUsername;
+    @BindView(R.id.password)
+    EditText etPassword;
+
+    String currentUsername;
+    String currentPassword;
+    ProgressDialog pd;
+    @BindView(R.id.img_back)
+    ImageView imgBack;
 
     private boolean progressShow;
     private boolean autoLogin = false;
@@ -57,19 +78,19 @@ public class LoginActivity extends BaseActivity {
         if (SuperWeChatHelper.getInstance().isLoggedIn()) {
             autoLogin = true;
             startActivity(new Intent(LoginActivity.this, MainActivity.class));
-
             return;
         }
         setContentView(R.layout.em_activity_login);
-
-        usernameEditText = (EditText) findViewById(R.id.username);
-        passwordEditText = (EditText) findViewById(R.id.password);
+        ButterKnife.bind(this);
+        txtTitle.setText(R.string.login);
+        txtTitle.setVisibility(View.VISIBLE);
+        imgBack.setVisibility(View.VISIBLE);
 
         // if user changed, clear the password
-        usernameEditText.addTextChangedListener(new TextWatcher() {
+        etUsername.addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-                passwordEditText.setText(null);
+                etPassword.setText(null);
             }
 
             @Override
@@ -83,22 +104,17 @@ public class LoginActivity extends BaseActivity {
             }
         });
         if (SuperWeChatHelper.getInstance().getCurrentUsernName() != null) {
-            usernameEditText.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
+            etUsername.setText(SuperWeChatHelper.getInstance().getCurrentUsernName());
         }
     }
 
-    /**
-     * login
-     *
-     * @param view
-     */
-    public void login(View view) {
+    public void login() {
         if (!EaseCommonUtils.isNetWorkConnected(this)) {
             Toast.makeText(this, R.string.network_isnot_available, Toast.LENGTH_SHORT).show();
             return;
         }
-        String currentUsername = usernameEditText.getText().toString().trim();
-        String currentPassword = passwordEditText.getText().toString().trim();
+        currentUsername = etUsername.getText().toString().trim();
+        currentPassword = etPassword.getText().toString().trim();
 
         if (TextUtils.isEmpty(currentUsername)) {
             Toast.makeText(this, R.string.User_name_cannot_be_empty, Toast.LENGTH_SHORT).show();
@@ -110,7 +126,7 @@ public class LoginActivity extends BaseActivity {
         }
 
         progressShow = true;
-        final ProgressDialog pd = new ProgressDialog(LoginActivity.this);
+        pd = new ProgressDialog(LoginActivity.this);
         pd.setCanceledOnTouchOutside(false);
         pd.setOnCancelListener(new OnCancelListener() {
 
@@ -131,6 +147,50 @@ public class LoginActivity extends BaseActivity {
         SuperWeChatHelper.getInstance().setCurrentUserName(currentUsername);
 
         final long start = System.currentTimeMillis();
+
+        loginAppServer();
+    }
+
+    private void loginAppServer() {
+        NetDao.Login(this, currentUsername, currentPassword, new OkHttpUtils.OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                Log.e(TAG, "s=" + s);
+                if (s != null) {
+                    Result result = ResultUtils.getResultFromJson(s, User.class);
+                    Log.e(TAG, "result=" + result);
+                    if (result != null) {
+                        if (result.isRetMsg()) {
+                            loginEMServer();
+                        } else {
+                            pd.dismiss();
+                            if (result.getRetCode() == I.MSG_LOGIN_UNKNOW_USER) {
+                                CommonUtils.showShortToast("账户不存在");
+                            } else if (result.getRetCode() == I.MSG_LOGIN_ERROR_PASSWORD) {
+                                CommonUtils.showShortToast("账户密码错误");
+                            } else {
+                                CommonUtils.showShortToast(R.string.Login_failed);
+                            }
+                        }
+                    } else {
+                        pd.dismiss();
+                        CommonUtils.showShortToast(R.string.Login_failed);
+                    }
+                } else {
+                    pd.dismiss();
+                    CommonUtils.showShortToast(R.string.Login_failed);
+                }
+            }
+
+            @Override
+            public void onError(String error) {
+                pd.dismiss();
+                CommonUtils.showShortToast(R.string.Login_failed);
+            }
+        });
+    }
+
+    private void loginEMServer() {
         // call login method
         Log.d(TAG, "EMClient.getInstance().login");
         EMClient.getInstance().login(currentUsername, currentPassword, new EMCallBack() {
@@ -186,13 +246,7 @@ public class LoginActivity extends BaseActivity {
         });
     }
 
-
-    /**
-     * register
-     *
-     * @param view
-     */
-    public void register(View view) {
+    public void register() {
         startActivityForResult(new Intent(this, RegisterActivity.class), 0);
     }
 
@@ -201,6 +255,21 @@ public class LoginActivity extends BaseActivity {
         super.onResume();
         if (autoLogin) {
             return;
+        }
+    }
+
+    @OnClick({R.id.img_back, R.id.btn_register, R.id.btn_login})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.img_back:
+                MFGT.finishActivity(this);
+                break;
+            case R.id.btn_register:
+                register();
+                break;
+            case R.id.btn_login:
+                login();
+                break;
         }
     }
 }
