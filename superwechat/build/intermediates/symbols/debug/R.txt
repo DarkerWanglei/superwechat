@@ -1364,7 +1364,7 @@ int id chronometer 0x7f0e013c
 int id clear_all_history 0x7f0e00fc
 int id close 0x7f0e002f
 int id collapseActionView 0x7f0e0035
-int id confirm_password 0x7f0e012e
+int id confirm_password 0x7f0e0130
 int id contact_dialog 0x7f0e01b9
 int id contact_list 0x7f0e008d
 int id contact_member 0x7f0e01b8
@@ -1501,11 +1501,11 @@ int id iv_item_avatar_icon 0x7f0e01ef
 int id iv_money_icon 0x7f0e018f
 int id iv_mute 0x7f0e0148
 int id iv_neterror 0x7f0e0152
-int id iv_nickname 0x7f0e012f
+int id iv_nickname 0x7f0e012d
 int id iv_open_bg 0x7f0e028d
 int id iv_pass_authentication 0x7f0e027c
 int id iv_password 0x7f0e0113
-int id iv_password2 0x7f0e012d
+int id iv_password2 0x7f0e012f
 int id iv_pay_icon 0x7f0e01de
 int id iv_phone_number 0x7f0e0214
 int id iv_random_avatar 0x7f0e02d0
@@ -1626,7 +1626,7 @@ int id msg_status 0x7f0e00b3
 int id multiply 0x7f0e0028
 int id name 0x7f0e0097
 int id never 0x7f0e0037
-int id nickname 0x7f0e0130
+int id nickname 0x7f0e012e
 int id no_pwd_line 0x7f0e02a9
 int id no_pwd_line_three 0x7f0e02ac
 int id no_pwd_line_two 0x7f0e02ab

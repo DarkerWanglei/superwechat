@@ -134,6 +134,7 @@ cn/ucai/superwechat/ui/OfflinePushSettingsActivity$1.class
 cn/ucai/superwechat/ui/MainActivity$3.class
 com/easemob/redpacketsdk/contract/VerifyIDContract$View.class
 cn/ucai/superwechat/ui/VideoCallActivity$BrightnessDataProcess.class
+cn/ucai/superwechat/utils/OkHttpUtils.class
 butterknife/BindString.class
 com/easemob/redpacketui/ui/activity/RPRedPacketActivity.class
 com/hyphenate/chat/EMMonitor.class
@@ -674,6 +675,7 @@ org/apache/http/conn/ManagedClientConnection.class
 com/hyphenate/easeui/ui/EaseShowBigImageActivity.class
 com/parse/ParsePlugins.class
 org/apache/http/NameValuePair.class
+cn/ucai/superwechat/ui/RegisterActivity$3.class
 android/support/v4/view/NestedScrollingParent.class
 org/apache/http/client/protocol/RequestTargetAuthentication.class
 org/apache/http/impl/io/AbstractMessageWriter.class
@@ -710,6 +712,7 @@ cn/ucai/superwechat/ui/GroupDetailsActivity$2.class
 org/apache/http/util/LangUtils.class
 cn/ucai/superwechat/ui/UserProfileActivity$1.class
 com/hyphenate/easeui/widget/EaseTitleBar.class
+cn/ucai/superwechat/utils/OkHttpUtils$OnCompleteListener.class
 com/easemob/redpacketui/widget/a.class
 com/hyphenate/chat/EMChatService$LocalBinder.class
 org/apache/http/impl/conn/DefaultHttpRoutePlanner.class
@@ -1193,6 +1196,7 @@ android/support/v4/view/ViewCompatICSMr1.class
 cn/ucai/superwechat/ui/SetServersActivity$1.class
 cn/ucai/superwechat/SuperWeChatApplication.class
 org/apache/commons/codec/net/RFC1522Codec.class
+cn/ucai/superwechat/net/NetDao.class
 com/hyphenate/easeui/ui/EaseShowBigImageActivity$1.class
 com/huawei/android/pushagent/c/c/b.class
 com/hyphenate/util/EasyUtils.class
@@ -1302,6 +1306,7 @@ cn/ucai/superwechat/video/util/Utils.class
 cn/ucai/superwechat/ui/GroupDetailsActivity$10.class
 com/baidu/mapapi/map/MyLocationConfiguration.class
 android/support/v4/view/MotionEventCompat.class
+cn/ucai/superwechat/ui/RegisterActivity$2.class
 com/easemob/redpacketui/recyclerview/widget/RecyclerView$SimpleOnItemTouchListener.class
 butterknife/OnItemSelected$Callback.class
 com/easemob/redpacketui/ui/a/ac.class

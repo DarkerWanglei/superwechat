@@ -2986,7 +2986,7 @@ containing a value of this type.
         public static final int clear_all_history=0x7f0e00fc;
         public static final int close=0x7f0e002f;
         public static final int collapseActionView=0x7f0e0035;
-        public static final int confirm_password=0x7f0e012e;
+        public static final int confirm_password=0x7f0e0130;
         public static final int contact_dialog=0x7f0e01b9;
         public static final int contact_list=0x7f0e008d;
         public static final int contact_member=0x7f0e01b8;
@@ -3123,11 +3123,11 @@ containing a value of this type.
         public static final int iv_money_icon=0x7f0e018f;
         public static final int iv_mute=0x7f0e0148;
         public static final int iv_neterror=0x7f0e0152;
-        public static final int iv_nickname=0x7f0e012f;
+        public static final int iv_nickname=0x7f0e012d;
         public static final int iv_open_bg=0x7f0e028d;
         public static final int iv_pass_authentication=0x7f0e027c;
         public static final int iv_password=0x7f0e0113;
-        public static final int iv_password2=0x7f0e012d;
+        public static final int iv_password2=0x7f0e012f;
         public static final int iv_pay_icon=0x7f0e01de;
         public static final int iv_phone_number=0x7f0e0214;
         public static final int iv_random_avatar=0x7f0e02d0;
@@ -3248,7 +3248,7 @@ containing a value of this type.
         public static final int multiply=0x7f0e0028;
         public static final int name=0x7f0e0097;
         public static final int never=0x7f0e0037;
-        public static final int nickname=0x7f0e0130;
+        public static final int nickname=0x7f0e012e;
         public static final int no_pwd_line=0x7f0e02a9;
         public static final int no_pwd_line_three=0x7f0e02ac;
         public static final int no_pwd_line_two=0x7f0e02ab;
