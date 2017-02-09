@@ -68,12 +68,12 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_random_dialog.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_new_friends_msg.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_new_friends_msg.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon.xml",
@@ -96,12 +96,12 @@
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_logout_actionsheet.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_change_no_pwd_dialog.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_change_no_pwd_dialog.xml"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_group_simle_details.xml",
         "source": "D:\\superwechat\\superwechat\\res\\layout\\em_activity_group_simle_details.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\rp_pay_change_no_pwd_dialog.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\layout\\rp_pay_change_no_pwd_dialog.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_image.xml",
