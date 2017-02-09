@@ -1,4 +1,4 @@
-#Thu Feb 09 15:59:52 CST 2017
+#Thu Feb 09 17:23:23 CST 2017
 base.0=D\:\\superwechat\\superwechat\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_5c3755f9519f1cd9192401c0f4c94cb8537f5534
 renamed.1=classes2.dex
 renamed.0=classes.dex

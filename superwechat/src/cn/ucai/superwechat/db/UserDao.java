@@ -112,8 +112,6 @@ public class UserDao {
         SuperWeChatDBManager.getInstance().saveRobotList(robotList);
     }
 
-
-
     /**
      * save contact list
      *
