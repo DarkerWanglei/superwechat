@@ -35,7 +35,9 @@ import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.SuperWeChatHelper;
 import cn.ucai.superwechat.domain.Result;
 import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.net.OnCompleteListener;
 import cn.ucai.superwechat.utils.CommonUtils;
+import cn.ucai.superwechat.utils.MD5;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.OkHttpUtils;
 import cn.ucai.superwechat.utils.ResultUtils;
@@ -108,9 +110,7 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void registerAppServer() {
-        // 注册自己的服务器账号
-        // 注册成功后调用环信的注册
-        NetDao.register(this, username, nick, pwd, new OkHttpUtils.OnCompleteListener<String>() {
+        NetDao.register(this, username, nick, pwd, new OnCompleteListener<String>() {
             @Override
             public void onSuccess(String s) {
                 Log.e("RegisterActivity", "s=" + s);
@@ -140,8 +140,7 @@ public class RegisterActivity extends BaseActivity {
 
             @Override
             public void onError(String error) {
-                pd.dismiss();
-                CommonUtils.showShortToast(R.string.Registration_failed);
+
             }
         });
     }
@@ -151,7 +150,7 @@ public class RegisterActivity extends BaseActivity {
             public void run() {
                 try {
                     // call method in SDK
-                    EMClient.getInstance().createAccount(username, pwd);
+                    EMClient.getInstance().createAccount(username, MD5.getMessageDigest(pwd));
                     runOnUiThread(new Runnable() {
                         public void run() {
                             if (!RegisterActivity.this.isFinishing())
@@ -160,6 +159,7 @@ public class RegisterActivity extends BaseActivity {
                             SuperWeChatHelper.getInstance().setCurrentUserName(username);
                             Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
                             finish();
+                            MFGT.gotoLogin(RegisterActivity.this);
                         }
                     });
                 } catch (final HyphenateException e) {
@@ -188,7 +188,7 @@ public class RegisterActivity extends BaseActivity {
     }
 
     private void unRegisterAppServer() {
-        NetDao.unRegister(this, username, new OkHttpUtils.OnCompleteListener<String>() {
+        NetDao.unRegister(this, username, new OnCompleteListener<String>() {
             @Override
             public void onSuccess(String result) {
                 Log.e("RegisterActivity", "result=" + result);

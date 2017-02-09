@@ -100,12 +100,12 @@
         "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_group_everyone.png"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_verify_identity.png",
-        "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_verify_identity.png"
-    },
-    {
         "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_pass_authentication.png",
         "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_pass_authentication.png"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_verify_identity.png",
+        "source": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\rp_verify_identity.png"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4\\rp_question_black.png",
