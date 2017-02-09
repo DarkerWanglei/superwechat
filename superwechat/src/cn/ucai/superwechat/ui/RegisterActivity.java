@@ -104,7 +104,6 @@ public class RegisterActivity extends BaseActivity {
             pd = new ProgressDialog(this);
             pd.setMessage(getResources().getString(R.string.Is_the_registered));
             pd.show();
-
             registerAppServer();
         }
     }
@@ -158,8 +157,8 @@ public class RegisterActivity extends BaseActivity {
                             // save current user
                             SuperWeChatHelper.getInstance().setCurrentUserName(username);
                             Toast.makeText(getApplicationContext(), getResources().getString(R.string.Registered_successfully), Toast.LENGTH_SHORT).show();
-                            finish();
                             MFGT.gotoLogin(RegisterActivity.this);
+                            finish();
                         }
                     });
                 } catch (final HyphenateException e) {

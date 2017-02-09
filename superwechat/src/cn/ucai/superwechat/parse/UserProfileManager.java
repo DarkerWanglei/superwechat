@@ -2,6 +2,7 @@ package cn.ucai.superwechat.parse;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.Log;
 
 import com.hyphenate.EMValueCallBack;
 import com.hyphenate.chat.EMClient;
@@ -22,6 +23,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserProfileManager {
+
+    private static final String TAG = UserProfileManager.class.getSimpleName();
     /**
      * application context
      */
@@ -154,8 +157,8 @@ public class UserProfileManager {
             @Override
             public void onSuccess(EaseUser value) {
                 if (value != null) {
-                    setCurrentUserNick(value.getNick());
-                    setCurrentUserAvatar(value.getAvatar());
+//                    setCurrentUserNick(value.getNick());
+//                    setCurrentUserAvatar(value.getAvatar());
                 }
             }
 
@@ -173,6 +176,14 @@ public class UserProfileManager {
                     if (result != null) {
                         if (result.isRetMsg()) {
                             L.e("UserProfileManager", "asyncGetCurrentUserInfo,result=" + result);
+                            User user = (User) result.getRetData();
+                            L.e(TAG, "user=" + user);
+                            if (user != null) {
+                                // save user info to db
+                                SuperWeChatHelper.getInstance().saveAppContact(user);
+                                setCurrentUserNick(user.getMUserNick());
+                                setCurrentUserAvatar(user.getAvatar());
+                            }
                         }
                     }
                 }
