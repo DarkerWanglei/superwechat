@@ -21,7 +21,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_wifi_disable.png",
@@ -60,12 +60,16 @@
         "source": "D:\\superwechat\\superwechat\\res\\drawable\\em_btn_green_selector.xml"
     },
     {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_selector_unsolid.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_open_selector_unsolid.xml"
+    },
+    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
     },
     {
-        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_selector_unsolid.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_open_selector_unsolid.xml"
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_call_hangup_bg.xml",
@@ -73,7 +77,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_pressed_shape_unsolid.xml",
@@ -81,7 +85,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_colored_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
@@ -97,7 +101,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_login.xml",
@@ -117,7 +121,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_borderless_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",
@@ -137,7 +141,11 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\umeng_update_button_ok_bg_focused.xml",
@@ -149,7 +157,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_blue_no_enable_shape.xml",
@@ -161,7 +169,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_edit_text_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_green_pressed_shape.xml",
@@ -173,7 +181,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem.xml",
@@ -185,7 +193,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_smiley_minus_btn.xml",
@@ -217,7 +225,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatto_bg.xml",
@@ -237,7 +245,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_ll_white_shape.xml",
@@ -269,7 +277,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_shape_corner.xml",
@@ -317,7 +325,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_text_cursor_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
@@ -329,7 +337,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_check_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_weixin.xml",
@@ -341,7 +349,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_normal_shape.xml",
@@ -349,7 +357,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_cab_background_top_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_red_packet_chatfrom_bg.xml",
@@ -416,6 +424,10 @@
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\EaseUI\\unspecified\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
     },
     {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_open_packet_shape_corner.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\rp_open_packet_shape_corner.xml"
     },
@@ -426,6 +438,10 @@
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",
         "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\superwechat\\redpacketlibrary\\unspecified\\res\\drawable\\rp_btn_red_selector.xml"
+    },
+    {
+        "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_takepic_selector.xml",
@@ -445,7 +461,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_transfer_selector.xml",
@@ -485,7 +501,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_item_background_holo_light.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
@@ -537,11 +553,11 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_textfield_search_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
@@ -577,7 +593,7 @@
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_btn_radio_material.xml"
+        "source": "D:\\superwechat\\superwechat\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "D:\\superwechat\\superwechat\\build\\intermediates\\res\\merged\\debug\\drawable\\em_tab_setting_bg.xml",
