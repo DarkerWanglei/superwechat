@@ -18,6 +18,7 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cn.ucai.superwechat.Constant;
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.utils.MFGT;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -28,8 +29,8 @@ public class ProfileFragment extends Fragment {
     ImageView ivAvatar;
     @BindView(R.id.tvNickName)
     TextView tvNickName;
-    @BindView(R.id.tvWeXinNum)
-    TextView tvWeXinNum;
+    @BindView(R.id.tvUsername)
+    TextView tvUsername;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -48,7 +49,7 @@ public class ProfileFragment extends Fragment {
 
     private void initData() {
         String username = EMClient.getInstance().getCurrentUser();
-        tvNickName.setText(username);
+        tvUsername.setText(username);
         EaseUserUtils.setAppUserNick(username, tvNickName);
         EaseUserUtils.setAppUserAvatar(getContext(), username, ivAvatar);
     }
@@ -72,7 +73,18 @@ public class ProfileFragment extends Fragment {
                 RedPacketUtil.startChangeActivity(getActivity());
                 break;
             case R.id.txt_settings:
+                MFGT.gotoSettings(getActivity());
                 break;
         }
     }
+
+//    @Override
+//    public void onSaveInstanceState(Bundle outState) {
+//        super.onSaveInstanceState(outState);
+//        if(((MainActivity)getActivity()).isConflict){
+//            outState.putBoolean("isConflict", true);
+//        }else if(((MainActivity)getActivity()).getCurrentAccountRemoved()){
+//            outState.putBoolean(Constant.ACCOUNT_REMOVED, true);
+//        }
+//    }
 }

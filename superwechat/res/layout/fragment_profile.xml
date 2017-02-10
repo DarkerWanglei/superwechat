@@ -17,15 +17,17 @@
 
             <RelativeLayout
                 android:id="@+id/layout_profile_view"
+                style="@style/list_txt_Style"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="3dp">
+                android:layout_marginTop="8dp">
 
                 <ImageView
-                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
                     android:id="@+id/ivAvatar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
                     android:layout_marginTop="15dp"
                     android:src="@drawable/default_hd_avatar" />
 
@@ -33,7 +35,7 @@
                     android:id="@+id/tvNickName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="7dp"
+                    android:layout_marginLeft="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_toRightOf="@id/ivAvatar"
                     android:text="大白鲨"
@@ -50,6 +52,7 @@
                     android:text="微信号:" />
 
                 <TextView
+                    android:id="@+id/tvUsername"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tvNickName"
