@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -30,34 +31,44 @@
             android:background="#D6DCDC" />
 
         <cn.ucai.superwechat.widget.DMTabHost
+            android:id="@+id/layout_tabhost"
             android:layout_width="match_parent"
             android:layout_height="47dp"
             android:paddingBottom="1dp">
 
             <cn.ucai.superwechat.widget.DMTabButton
-                drawableTop="@drawable/tab_contact_list"
-                tabtext="@string/contacts"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:drawableTop="@drawable/tab_contact_list"
+                app:tabtext="@string/app_name_weixin">
 
             </cn.ucai.superwechat.widget.DMTabButton>
 
             <cn.ucai.superwechat.widget.DMTabButton
-                drawableTop="@drawable/tab_find"
-                tabtext="@string/discover"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:drawableTop="@drawable/tab_contact_list"
+                app:tabtext="@string/contacts">
 
             </cn.ucai.superwechat.widget.DMTabButton>
 
             <cn.ucai.superwechat.widget.DMTabButton
-                drawableTop="@drawable/tab_profile"
-                tabtext="@string/me"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                app:drawableTop="@drawable/tab_find"
+                app:tabtext="@string/discover">
+
+            </cn.ucai.superwechat.widget.DMTabButton>
+
+            <cn.ucai.superwechat.widget.DMTabButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                app:drawableTop="@drawable/tab_profile"
+                app:tabtext="@string/me">
 
             </cn.ucai.superwechat.widget.DMTabButton>
         </cn.ucai.superwechat.widget.DMTabHost>

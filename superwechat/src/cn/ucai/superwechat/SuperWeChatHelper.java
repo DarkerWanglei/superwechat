@@ -1329,7 +1329,7 @@ public class SuperWeChatHelper {
         }
 
         // return a empty non-null object to avoid app crash
-        if (contactList == null) {
+        if (appContactList == null) {
             return new Hashtable<String, User>();
         }
 
