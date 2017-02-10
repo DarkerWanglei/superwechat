@@ -411,7 +411,7 @@ public class SettingsActivity extends AppCompatActivity implements OnClickListen
                         pd.dismiss();
                         // show login screen
                         finish();
-                        MFGT.gotoLogin(SettingsActivity.this);
+                        MFGT.gotoLoginCleanTask(SettingsActivity.this);
                     }
                 });
             }
