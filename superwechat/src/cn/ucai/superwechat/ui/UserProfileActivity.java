@@ -332,7 +332,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
             Bitmap bitmap = extras.getParcelable("data");
             String imagePath = EaseImageUtils.getImagePath(EMClient.getInstance().getCurrentUser() + I.AVATAR_SUFFIX_PNG);
             File file = new File(imagePath);// 将要保存图片的路径
-            L.e(TAG, "file paht =" + file.getAbsolutePath());
+            L.e(TAG, "file path =" + file.getAbsolutePath());
             try {
                 BufferedOutputStream bos = new BufferedOutputStream(new FileOutputStream(file));
                 bitmap.compress(Bitmap.CompressFormat.JPEG, 100, bos);
