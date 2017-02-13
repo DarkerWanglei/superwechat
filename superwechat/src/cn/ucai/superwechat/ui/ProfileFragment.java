@@ -47,6 +47,12 @@ public class ProfileFragment extends Fragment {
         initData();
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        initData();
+    }
+
     private void initData() {
         String username = EMClient.getInstance().getCurrentUser();
         tvUsername.setText(username);
