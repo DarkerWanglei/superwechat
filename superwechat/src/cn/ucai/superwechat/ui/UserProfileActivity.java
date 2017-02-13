@@ -15,8 +15,10 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.PopupWindow;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -49,6 +51,8 @@ import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 import cn.ucai.superwechat.utils.PreferenceManager;
 import cn.ucai.superwechat.utils.ResultUtils;
+import cn.ucai.superwechat.widget.TitleMenu.ActionItem;
+import cn.ucai.superwechat.widget.TitleMenu.TitlePopup;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener {
     private static final String TAG = UserProfileActivity.class.getSimpleName();
@@ -91,6 +95,8 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         imgBack.setVisibility(View.VISIBLE);
         txtTitle.setVisibility(View.VISIBLE);
         txtTitle.setText(R.string.title_user_profile);
+
+
     }
 
     private void initListener() {
