@@ -93,6 +93,7 @@ public class FriendProfileActivity extends BaseActivity {
             case R.id.rl_tag:
                 break;
             case R.id.addContact:
+                MFGT.gotoAddFriend(this, user.getMUserName());
                 break;
             case R.id.btn_sendMessage:
                 break;
