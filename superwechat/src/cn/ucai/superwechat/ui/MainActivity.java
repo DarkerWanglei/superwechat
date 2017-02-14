@@ -207,8 +207,6 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      * init views
      */
     private void initView() {
-//        unreadLabel = (TextView) findViewById(R.id.unread_msg_number);
-//        unreadAddressLable = (TextView) findViewById(R.id.unread_address_number);
 //        mTabs = new Button[3];
 //        mTabs[0] = (Button) findViewById(R.id.btn_conversation);
 //        mTabs[1] = (Button) findViewById(R.id.btn_address_list);
@@ -451,28 +449,34 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
      */
     public void updateUnreadLabel() {
         int count = getUnreadMsgCountTotal();
-//        if (count > 0) {
+        if (count > 0) {
 //            unreadLabel.setText(String.valueOf(count));
 //            unreadLabel.setVisibility(View.VISIBLE);
-//        } else {
+        } else {
 //            unreadLabel.setVisibility(View.INVISIBLE);
-//        }
+        }
     }
 
     /**
      * update the total unread count
      */
     public void updateUnreadAddressLable() {
-//        runOnUiThread(new Runnable() {
-//            public void run() {
-//                int count = getUnreadAddressCountTotal();
-//                if (count > 0) {
+
+        runOnUiThread(new Runnable() {
+            public void run() {
+                int count = getUnreadAddressCountTotal();
+                if (count > 1) {
+                    L.e(TAG, "count=" + count);
+                    layoutTabhost.setUnreadCount(1, count);
 //                    unreadAddressLable.setVisibility(View.VISIBLE);
-//                } else {
+                } else if (count == 1) {
+                    layoutTabhost.setHasNew(1, true);
+                } else {
+                    layoutTabhost.setHasNew(1, false);
 //                    unreadAddressLable.setVisibility(View.INVISIBLE);
-//                }
-//            }
-//        });
+                }
+            }
+        });
 
     }
 
