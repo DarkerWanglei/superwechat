@@ -18,19 +18,19 @@
 
         <ImageView
             android:id="@+id/ivAvatar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:layout_centerVertical="true"
             android:layout_marginLeft="8dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="13dp"
             android:src="@drawable/default_hd_avatar" />
 
         <TextView
             android:id="@+id/tvNickName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginTop="6dp"
             android:layout_toRightOf="@id/ivAvatar"
             android:text="大白鲨"
             android:textSize="20dp" />
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/tvNickName"
             android:layout_marginLeft="3dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="3dp"
             android:layout_toRightOf="@id/tvWeXinNum"
             android:text="123" />
 
@@ -99,13 +99,14 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/btn_send"
+            android:id="@+id/btn_sendMessage"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="22dp"
             android:background="@color/login_bg"
             android:text="发消息"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:visibility="gone" />
 
         <View
             android:layout_width="fill_parent"
@@ -119,7 +120,8 @@
             android:layout_marginTop="22dp"
             android:background="@color/white"
             android:text="视频聊天"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:visibility="gone" />
 
         <View
             android:layout_width="fill_parent"
