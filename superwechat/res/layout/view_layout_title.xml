@@ -66,4 +66,5 @@
         android:text="@string/addcontact_send_msg"
         android:visibility="gone" />
 
+
 </RelativeLayout>
