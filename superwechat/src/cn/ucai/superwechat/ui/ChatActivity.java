@@ -56,11 +56,6 @@ public class ChatActivity extends BaseActivity {
     @Override
     public void onBackPressed() {
         MFGT.gotoMain(this);
-//        chatFragment.onBackPressed();
-//        if (EasyUtils.isSingleActivity(this)) {
-//            Intent intent = new Intent(this, MainActivity.class);
-//            startActivity(intent);
-//        }
     }
 
     public String getToChatUsername() {
