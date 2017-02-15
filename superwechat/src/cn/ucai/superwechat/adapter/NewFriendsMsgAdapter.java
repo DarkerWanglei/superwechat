@@ -62,7 +62,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
             holder.agree = (Button) convertView.findViewById(R.id.agree);
             holder.status = (TextView) convertView.findViewById(R.id.user_state);
             holder.groupContainer = (LinearLayout) convertView.findViewById(R.id.ll_group);
-            holder.groupname = (TextView) convertView.findViewById(R.id.tv_groupName);
+            holder.groupName = (TextView) convertView.findViewById(R.id.tv_groupName);
             // holder.time = (TextView) convertView.findViewById(R.id.time);
             convertView.setTag(holder);
         } else {
@@ -89,7 +89,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 
             if (msg.getGroupId() != null) { // show group name
                 holder.groupContainer.setVisibility(View.VISIBLE);
-                holder.groupname.setText(msg.getGroupName());
+                holder.groupName.setText(msg.getGroupName());
             } else {
                 holder.groupContainer.setVisibility(View.GONE);
             }
@@ -214,7 +214,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
                             buttonAgree.setBackgroundDrawable(null);
                             buttonAgree.setEnabled(false);
                             buttonAgree.setVisibility(View.GONE);
-                            buttonRefuse.setVisibility(View.INVISIBLE);
+                            buttonRefuse.setVisibility(View.VISIBLE);
                             buttonRefuse.setText(str2);
                             buttonRefuse.setBackgroundDrawable(null);
                         }
@@ -297,7 +297,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
         Button agree;
         TextView status;
         LinearLayout groupContainer;
-        TextView groupname;
+        TextView groupName;
         // TextView time;
     }
 

@@ -661,7 +661,7 @@ public class SuperWeChatHelper {
     public class MyContactListener implements EMContactListener {
 
         @Override
-        public void onContactAdded(String username) {
+        public void onContactAdded(final String username) {
             // save contact
             Map<String, EaseUser> localUsers = getContactList();
             Map<String, EaseUser> toAddUsers = new HashMap<String, EaseUser>();
@@ -673,6 +673,29 @@ public class SuperWeChatHelper {
             toAddUsers.put(username, user);
             localUsers.putAll(toAddUsers);
 
+            NetDao.addContact(appContext, EMClient.getInstance().getCurrentUser(), username, new OnCompleteListener<String>() {
+                @Override
+                public void onSuccess(String s) {
+                    if (s != null) {
+                        Result result = ResultUtils.getResultFromJson(s, User.class);
+                        if (result != null) {
+                            if (result.isRetMsg()) {
+                                User user = (User) result.getRetData();
+                                if (!getAppContactList().containsKey(username)) {
+                                    getAppContactList().put(username, user);
+                                    userDao.saveAppContact(user);
+                                    broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
+                                }
+                            }
+                        }
+                    }
+                }
+
+                @Override
+                public void onError(String error) {
+
+                }
+            });
             broadcastManager.sendBroadcast(new Intent(Constant.ACTION_CONTACT_CHANAGED));
         }
 
@@ -764,7 +787,7 @@ public class SuperWeChatHelper {
                 inviteMessgeDao.saveMessage(msg);
             }
         });
-        inviteMessgeDao.saveMessage(msg);
+//        inviteMessgeDao.saveMessage(msg); 不能放在这是为了避免onSuccess中执行耗时操作 导致先执行此句
         //increase the unread message count
         inviteMessgeDao.saveUnreadMessageCount(1);
         // notify there is new message
