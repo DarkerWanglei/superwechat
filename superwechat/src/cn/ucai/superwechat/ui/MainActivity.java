@@ -464,12 +464,10 @@ public class MainActivity extends BaseActivity implements DMTabHost.OnCheckedCha
                 if (count > 1) {
                     L.e(TAG, "count=" + count);
                     layoutTabhost.setUnreadCount(1, count);
-//                    unreadAddressLable.setVisibility(View.VISIBLE);
                 } else if (count == 1) {
                     layoutTabhost.setHasNew(1, true);
                 } else {
                     layoutTabhost.setHasNew(1, false);
-//                    unreadAddressLable.setVisibility(View.INVISIBLE);
                 }
             }
         });
