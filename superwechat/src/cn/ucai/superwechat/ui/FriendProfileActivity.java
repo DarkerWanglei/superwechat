@@ -64,7 +64,6 @@ public class FriendProfileActivity extends BaseActivity {
         txtTitle.setVisibility(View.VISIBLE);
         txtTitle.setText(R.string.userinfo_txt_profile);
         user = (User) getIntent().getSerializableExtra(I.User.TABLE_NAME);
-        L.e(TAG, ">>>>>>>>>>>USER=" + user);
         if (user != null) {
             showUserInfo();
         } else {
