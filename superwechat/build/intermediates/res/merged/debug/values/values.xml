@@ -212,7 +212,7 @@
     <color name="text_color_hint">#DDDDDD</color>
     <color name="text_hint">#353535</color>
     <color name="text_wenti">#7d96cc</color>
-    <color name="top_bar_normal_bg">#00acff</color>
+    <color name="top_bar_normal_bg">#2D2F31</color>
     <color name="transparent">#00000000</color>
     <color name="triangle">#FBBC05</color>
     <color name="view_bg">#00000000</color>
