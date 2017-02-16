@@ -1,5 +1,6 @@
 package cn.ucai.superwechat.ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -136,6 +137,8 @@ public class FriendProfileActivity extends BaseActivity {
                 MFGT.gotoChat(this, user.getMUserName());
                 break;
             case R.id.btn_video_call:
+                startActivity(new Intent(this, VideoCallActivity.class).putExtra("username", user.getMUserName())
+                        .putExtra("isComingCall", false));
                 break;
             case R.id.img_back:
                 MFGT.finishActivity(this);
