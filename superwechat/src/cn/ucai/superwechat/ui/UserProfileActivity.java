@@ -1,5 +1,6 @@
 package cn.ucai.superwechat.ui;
 
+import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -56,8 +57,6 @@ import cn.ucai.superwechat.widget.TitleMenu.TitlePopup;
 
 public class UserProfileActivity extends BaseActivity implements OnClickListener {
     private static final String TAG = UserProfileActivity.class.getSimpleName();
-    private static final int REQUESTCODE_PICK = 1;
-    private static final int REQUESTCODE_CUTTING = 2;
     @BindView(R.id.img_back)
     ImageView imgBack;
     @BindView(R.id.txt_title)
@@ -158,7 +157,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                             case 1:
                                 Intent pickIntent = new Intent(Intent.ACTION_PICK, null);
                                 pickIntent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
-                                startActivityForResult(pickIntent, REQUESTCODE_PICK);
+                                startActivityForResult(pickIntent, I.REQUESTCODE_PICK);
                                 break;
                             default:
                                 break;
@@ -243,13 +242,13 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode) {
-            case REQUESTCODE_PICK:
+            case I.REQUESTCODE_PICK:
                 if (data == null || data.getData() == null) {
                     return;
                 }
                 startPhotoZoom(data.getData());
                 break;
-            case REQUESTCODE_CUTTING:
+            case I.REQUESTCODE_CUTTING:
                 if (data != null) {
                     uploadAppUserAvatar(data);
                 }
@@ -270,7 +269,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         intent.putExtra("outputY", 300);
         intent.putExtra("return-data", true);
         intent.putExtra("noFaceDetection", true);
-        startActivityForResult(intent, REQUESTCODE_CUTTING);
+        startActivityForResult(intent, I.REQUESTCODE_CUTTING);
     }
 
     /**
@@ -391,20 +390,7 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
                 uploadHeadPhoto();
                 break;
             case R.id.nickname:
-                final EditText editText = new EditText(this);
-                new Builder(this).setTitle(R.string.setting_nickname).setIcon(android.R.drawable.ic_dialog_info).setView(editText)
-                        .setPositiveButton(R.string.dl_ok, new DialogInterface.OnClickListener() {
-
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                String nickString = editText.getText().toString();
-                                if (TextUtils.isEmpty(nickString)) {
-                                    Toast.makeText(UserProfileActivity.this, getString(R.string.toast_nick_not_isnull), Toast.LENGTH_SHORT).show();
-                                    return;
-                                }
-                                updateRemoteNick(nickString);
-                            }
-                        }).setNegativeButton(R.string.dl_cancel, null).show();
+                updateUserNick();
                 break;
             case R.id.WeiXinNum:
                 break;
@@ -413,5 +399,22 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
             case R.id.Address:
                 break;
         }
+    }
+
+    private void updateUserNick() {
+        final EditText editText = new EditText(this);
+        new Builder(this).setTitle(R.string.setting_nickname).setIcon(android.R.drawable.ic_dialog_info).setView(editText)
+                .setPositiveButton(R.string.dl_ok, new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        String nickString = editText.getText().toString();
+                        if (TextUtils.isEmpty(nickString)) {
+                            Toast.makeText(UserProfileActivity.this, getString(R.string.toast_nick_not_isnull), Toast.LENGTH_SHORT).show();
+                            return;
+                        }
+                        updateRemoteNick(nickString);
+                    }
+                }).setNegativeButton(R.string.dl_cancel, null).show();
     }
 }
