@@ -767,7 +767,6 @@ public class SuperWeChatHelper {
             inviteMessgeDao = new InviteMessgeDao(appContext);
         }
         L.e(TAG, "notifyNewInviteMessage...");
-        L.e(TAG, "notifyNewInviteMessage,msg=" + msg);
         if (msg.getGroupId() == null) {
             NetDao.getUserInfoByUsername(appContext, msg.getFrom(), new OnCompleteListener<String>() {
                 @Override

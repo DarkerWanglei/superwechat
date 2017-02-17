@@ -318,7 +318,7 @@ public class NewGroupActivity extends BaseActivity {
             Drawable drawable = new BitmapDrawable(getResources(), bitmap);
             ivGroupIcon.setImageDrawable(drawable);
 
-            String imagePath = EaseImageUtils.getImagePath(EMClient.getInstance().getCurrentUser() + I.AVATAR_SUFFIX_PNG);
+            String imagePath = EaseImageUtils.getImagePath(EMClient.getInstance().getCurrentUser() + I.AVATAR_SUFFIX_JPG);
             file = new File(imagePath);// 将要保存图片的路径
             L.e(TAG, "file path =" + file.getAbsolutePath());
             try {
