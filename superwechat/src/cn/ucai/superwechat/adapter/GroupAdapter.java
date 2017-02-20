@@ -55,7 +55,6 @@ public class GroupAdapter extends ArrayAdapter<EMGroup> {
 
     @Override
     public int getItemViewType(int position) {
-        L.e(TAG, ">>>>>>>>>getItemViewType" + position);
         if (position == 0) {
             return 0;
         } else if (position == 1) {

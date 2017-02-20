@@ -66,9 +66,9 @@ public class NewFriendsMsgActivity extends BaseActivity {
         txtRight.setVisibility(View.VISIBLE);
     }
 
-    public void back(View view) {
-        finish();
-    }
+//    public void back(View view) {
+//        finish();
+//    }
 
     @OnClick({R.id.img_back, R.id.txt_right})
     public void onClick(View view) {

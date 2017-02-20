@@ -21,6 +21,7 @@ import com.hyphenate.easeui.utils.EaseUserUtils;
 import cn.ucai.superwechat.R;
 import cn.ucai.superwechat.db.InviteMessgeDao;
 import cn.ucai.superwechat.domain.InviteMessage;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 
 import android.app.Activity;
@@ -39,6 +40,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
+
+    private static final String TAG = NewFriendsMsgAdapter.class.getSimpleName();
 
     private Context context;
     private InviteMessgeDao messgeDao;
@@ -62,7 +65,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
             holder.agree = (Button) convertView.findViewById(R.id.agree);
             holder.status = (TextView) convertView.findViewById(R.id.user_state);
             holder.groupContainer = (LinearLayout) convertView.findViewById(R.id.ll_group);
-            holder.groupName = (TextView) convertView.findViewById(R.id.tv_groupName);
+            holder.groupname = (TextView) convertView.findViewById(R.id.tv_groupName);
             // holder.time = (TextView) convertView.findViewById(R.id.time);
             convertView.setTag(holder);
         } else {
@@ -84,12 +87,12 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
 
         final InviteMessage msg = getItem(position);
         if (msg != null) {
-
+            L.e(TAG, "msg=" + msg);
             holder.agree.setVisibility(View.INVISIBLE);
-
             if (msg.getGroupId() != null) { // show group name
+                L.e(TAG, "msg.getGroupId()=" + msg.getGroupId());
                 holder.groupContainer.setVisibility(View.VISIBLE);
-                holder.groupName.setText(msg.getGroupName());
+                holder.groupname.setText(msg.getGroupName());
             } else {
                 holder.groupContainer.setVisibility(View.GONE);
             }
@@ -297,7 +300,7 @@ public class NewFriendsMsgAdapter extends ArrayAdapter<InviteMessage> {
         Button agree;
         TextView status;
         LinearLayout groupContainer;
-        TextView groupName;
+        TextView groupname;
         // TextView time;
     }
 

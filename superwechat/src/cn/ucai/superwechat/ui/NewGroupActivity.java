@@ -190,7 +190,7 @@ public class NewGroupActivity extends BaseActivity {
                     L.e(TAG, "createAppGroup,result=" + result);
                     if (result != null && result.isRetMsg()) {
                         L.e(TAG, "members.length=" + members.length);
-                        if (members != null && members.length > 1) {
+                        if (members != null && members.length > 0) {
                             addGroupMembers(group.getGroupId(), members);
                         } else {
                             createGroupSuccess();

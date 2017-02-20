@@ -22,6 +22,7 @@ public class InviteMessage {
     private String groupId;
     private String groupName;
     private String groupInviter;
+
     private String usernick;
     private String avatarSuffix;
     private String avatarTime;
@@ -151,6 +152,22 @@ public class InviteMessage {
         return path;
     }
 
+    @Override
+    public String toString() {
+        return "InviteMessage{" +
+                "from='" + from + '\'' +
+                ", time=" + time +
+                ", reason='" + reason + '\'' +
+                ", status=" + status +
+                ", groupId='" + groupId + '\'' +
+                ", groupName='" + groupName + '\'' +
+                ", groupInviter='" + groupInviter + '\'' +
+                ", usernick='" + usernick + '\'' +
+                ", avatarSuffix='" + avatarSuffix + '\'' +
+                ", avatarTime='" + avatarTime + '\'' +
+                ", id=" + id +
+                '}';
+    }
 }
 
 
