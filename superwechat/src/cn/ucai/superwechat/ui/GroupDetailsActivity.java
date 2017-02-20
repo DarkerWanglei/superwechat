@@ -42,6 +42,9 @@ import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMPushConfigs;
 
 import cn.ucai.superwechat.R;
+import cn.ucai.superwechat.net.NetDao;
+import cn.ucai.superwechat.net.OnCompleteListener;
+import cn.ucai.superwechat.utils.L;
 import cn.ucai.superwechat.utils.MFGT;
 
 import com.hyphenate.easeui.utils.EaseUserUtils;
@@ -54,6 +57,7 @@ import com.hyphenate.util.EMLog;
 import com.hyphenate.util.NetUtils;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class GroupDetailsActivity extends BaseActivity implements OnClickListener {
@@ -322,10 +326,20 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 
     /**
      * 退出群组
-     *
      */
     private void exitGrop() {
         String st1 = getResources().getString(R.string.Exit_the_group_chat_failure);
+        NetDao.deleteGroupMember(this, groupId, EMClient.getInstance().getCurrentUser(), new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                L.e(TAG, "exitGrop,s=" + s);
+            }
+
+            @Override
+            public void onError(String error) {
+                L.e(TAG, "error=" + error);
+            }
+        });
         new Thread(new Runnable() {
             public void run() {
                 try {
@@ -353,7 +367,6 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
 
     /**
      * 解散群组
-     *
      */
     private void deleteGrop() {
         final String st5 = getResources().getString(R.string.Dissolve_group_chat_tofail);
@@ -389,6 +402,18 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
      */
     private void addMembersToGroup(final String[] newmembers) {
         final String st6 = getResources().getString(R.string.Add_group_members_fail);
+        L.e(TAG, "addMembersToGroup,groupId=" + groupId);
+        NetDao.addGroupMember(this, Arrays.toString(newmembers), groupId, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                L.e(TAG, "addMembersToGroup,s" + s);
+            }
+
+            @Override
+            public void onError(String error) {
+                L.e(TAG, "addMembersToGroup,error" + error);
+            }
+        });
         new Thread(new Runnable() {
 
             public void run() {
@@ -580,12 +605,22 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
         }
     }
 
+    private String getGroupMembers(String[] members) {
+        String membersStr = "";
+        if (members.length > 0) {
+            for (String s : members) {
+                membersStr += s + ",";
+            }
+        }
+        L.e(TAG, "getGroupMembers," + membersStr);
+        return membersStr;
+    }
+
 
     /**
      * 群组成员gridadapter
      *
      * @author admin_new
-     *
      */
     private class GridAdapter extends ArrayAdapter<String> {
 
@@ -721,6 +756,19 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
                         deleteDialog.setMessage(st13);
                         deleteDialog.setCanceledOnTouchOutside(false);
                         deleteDialog.show();
+
+                        NetDao.deleteGroupMember(GroupDetailsActivity.this, groupId, username, new OnCompleteListener<String>() {
+                            @Override
+                            public void onSuccess(String s) {
+                                L.e(TAG, "deleteMembersFromGroup,s=" + s);
+                                L.e(TAG, "deleteMembersFromGroup,username=" + username);
+                            }
+
+                            @Override
+                            public void onError(String error) {
+                                L.e(TAG, "error=" + error);
+                            }
+                        });
                         new Thread(new Runnable() {
 
                             @Override
