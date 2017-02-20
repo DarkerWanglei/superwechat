@@ -3,6 +3,7 @@ package cn.ucai.superwechat.utils;
 import android.app.Activity;
 import android.content.Intent;
 
+import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.domain.User;
 
 import cn.ucai.superwechat.I;
@@ -90,9 +91,13 @@ public class MFGT {
     }
 
     public static void gotoFriend(Activity activity, String username) {
-        Intent intent = new Intent(activity, FriendProfileActivity.class);
-        intent.putExtra(I.User.USER_NAME, username);
-        startActivity(activity, intent);
+        if (username.equals(EMClient.getInstance().getCurrentUser())) {
+            gotoUserProfile(activity);
+        } else {
+            Intent intent = new Intent(activity, FriendProfileActivity.class);
+            intent.putExtra(I.User.USER_NAME, username);
+            startActivity(activity, intent);
+        }
     }
 
     public static void gotoAddFriend(Activity activity, String userName) {
