@@ -222,6 +222,18 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
                         progressDialog.setMessage(st5);
                         progressDialog.show();
 
+                        NetDao.updateGroupName(GroupDetailsActivity.this, groupId, returnData, new OnCompleteListener<String>() {
+                            @Override
+                            public void onSuccess(String s) {
+                                L.e(TAG, "updateGroupName,s=" + s);
+                            }
+
+                            @Override
+                            public void onError(String error) {
+                                L.e(TAG, "updateGroupName,error=" + error);
+                            }
+                        });
+
                         new Thread(new Runnable() {
                             public void run() {
                                 try {
@@ -370,6 +382,17 @@ public class GroupDetailsActivity extends BaseActivity implements OnClickListene
      */
     private void deleteGrop() {
         final String st5 = getResources().getString(R.string.Dissolve_group_chat_tofail);
+        NetDao.deleteGroup(this, groupId, new OnCompleteListener<String>() {
+            @Override
+            public void onSuccess(String s) {
+                L.e(TAG, "deleteGrop,s=" + s);
+            }
+
+            @Override
+            public void onError(String error) {
+                L.e(TAG, "deleteGrop,error=" + error);
+            }
+        });
         new Thread(new Runnable() {
             public void run() {
                 try {
