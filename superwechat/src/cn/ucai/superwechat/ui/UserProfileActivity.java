@@ -94,8 +94,12 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         imgBack.setVisibility(View.VISIBLE);
         txtTitle.setVisibility(View.VISIBLE);
         txtTitle.setText(R.string.title_user_profile);
+    }
 
-
+    @Override
+    protected void onResume() {
+        asyncFetchUserInfo(EMClient.getInstance().getCurrentUser());
+        super.onResume();
     }
 
     private void initListener() {
@@ -103,7 +107,6 @@ public class UserProfileActivity extends BaseActivity implements OnClickListener
         tvUsername.setText(username);
         EaseUserUtils.setUserNick(username, tvNickName);
         EaseUserUtils.setUserAvatar(this, username, userHeadAvatar);
-        asyncFetchUserInfo(username);
     }
 
 
